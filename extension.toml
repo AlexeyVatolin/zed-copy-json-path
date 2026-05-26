@@ -1,0 +1,11 @@
+id = "copy-json-path"
+name = "Copy JSON Path"
+description = "Provides a JSON code action that copies the JsonPath for the object key at the cursor."
+version = "0.1.0"
+schema_version = 1
+authors = ["Alexey Vatolin"]
+repository = "https://github.com/AlexeyVatolin/zed-copy-json-path"
+
+[language_servers.copy-json-path]
+name = "Copy JSON Path"
+languages = ["JSON", "JSONC"]
